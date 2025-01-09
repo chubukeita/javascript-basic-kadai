@@ -2,5 +2,8 @@
 let weight = 68;
 let height = 1.7;
 
+// BMIを計算
+let BMI = weight / (height * height);
+
 // BMIを出力
-console.log(weight / (height * height));
+console.log(BMI);
